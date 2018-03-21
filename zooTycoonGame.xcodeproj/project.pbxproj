@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		831428E820621A840084FBD1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428E720621A840084FBD1 /* main.cpp */; };
+		831428FB20621A990084FBD1 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428EE20621A970084FBD1 /* Animal.cpp */; };
+		831428FC20621A990084FBD1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428EF20621A970084FBD1 /* main.cpp */; };
+		831428FD20621A990084FBD1 /* Tiger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428F020621A980084FBD1 /* Tiger.cpp */; };
+		831428FE20621A990084FBD1 /* Turtle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428F220621A980084FBD1 /* Turtle.cpp */; };
+		831428FF20621A990084FBD1 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428F320621A980084FBD1 /* Menu.cpp */; };
+		8314290020621A990084FBD1 /* Penguin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428F820621A980084FBD1 /* Penguin.cpp */; };
+		8314290120621A990084FBD1 /* Zoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 831428F920621A980084FBD1 /* Zoo.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +30,19 @@
 
 /* Begin PBXFileReference section */
 		831428E420621A840084FBD1 /* zooTycoonGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zooTycoonGame; sourceTree = BUILT_PRODUCTS_DIR; };
-		831428E720621A840084FBD1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		831428EE20621A970084FBD1 /* Animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		831428EF20621A970084FBD1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		831428F020621A980084FBD1 /* Tiger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tiger.cpp; sourceTree = "<group>"; };
+		831428F120621A980084FBD1 /* Penguin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Penguin.hpp; sourceTree = "<group>"; };
+		831428F220621A980084FBD1 /* Turtle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Turtle.cpp; sourceTree = "<group>"; };
+		831428F320621A980084FBD1 /* Menu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		831428F420621A980084FBD1 /* Tiger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tiger.hpp; sourceTree = "<group>"; };
+		831428F520621A980084FBD1 /* Turtle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Turtle.hpp; sourceTree = "<group>"; };
+		831428F620621A980084FBD1 /* Animal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
+		831428F720621A980084FBD1 /* Menu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		831428F820621A980084FBD1 /* Penguin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Penguin.cpp; sourceTree = "<group>"; };
+		831428F920621A980084FBD1 /* Zoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zoo.cpp; sourceTree = "<group>"; };
+		831428FA20621A990084FBD1 /* Zoo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Zoo.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,19 @@
 		831428E620621A840084FBD1 /* zooTycoonGame */ = {
 			isa = PBXGroup;
 			children = (
-				831428E720621A840084FBD1 /* main.cpp */,
+				831428EE20621A970084FBD1 /* Animal.cpp */,
+				831428F620621A980084FBD1 /* Animal.hpp */,
+				831428EF20621A970084FBD1 /* main.cpp */,
+				831428F320621A980084FBD1 /* Menu.cpp */,
+				831428F720621A980084FBD1 /* Menu.hpp */,
+				831428F820621A980084FBD1 /* Penguin.cpp */,
+				831428F120621A980084FBD1 /* Penguin.hpp */,
+				831428F020621A980084FBD1 /* Tiger.cpp */,
+				831428F420621A980084FBD1 /* Tiger.hpp */,
+				831428F220621A980084FBD1 /* Turtle.cpp */,
+				831428F520621A980084FBD1 /* Turtle.hpp */,
+				831428F920621A980084FBD1 /* Zoo.cpp */,
+				831428FA20621A990084FBD1 /* Zoo.hpp */,
 			);
 			path = zooTycoonGame;
 			sourceTree = "<group>";
@@ -119,7 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831428E820621A840084FBD1 /* main.cpp in Sources */,
+				831428FD20621A990084FBD1 /* Tiger.cpp in Sources */,
+				831428FC20621A990084FBD1 /* main.cpp in Sources */,
+				8314290020621A990084FBD1 /* Penguin.cpp in Sources */,
+				8314290120621A990084FBD1 /* Zoo.cpp in Sources */,
+				831428FB20621A990084FBD1 /* Animal.cpp in Sources */,
+				831428FE20621A990084FBD1 /* Turtle.cpp in Sources */,
+				831428FF20621A990084FBD1 /* Menu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
